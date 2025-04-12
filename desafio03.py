@@ -1,0 +1,5 @@
+num1 = input('Digite um número: ')
+num2 = input('Digite outro número: ')
+n1 = int(num1)
+n2 = int(num2)
+print('A soma de ',n1,' e ' ,n2, ' é ', n1+n2)
