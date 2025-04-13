@@ -1,7 +1,7 @@
 nome = input('Digite seu nome completo: ')
 print('O seu nome em maiúsculo: {}'.format(nome.upper()))
 print('O seu nome em minúsculo: {}'.format(nome.lower()))
-total = len(nome) - nome.strip().count(" ")
+total = len(nome) - nome.count(" ")
 print('O total de letras é: {}'.format(total))
 dividida = nome.split()
 print('Quantidade de letras do seu primeiro nome: {}'.format(len(dividida[0])))
